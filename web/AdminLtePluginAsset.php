@@ -1,6 +1,6 @@
 <?php
 
-namespace finasmart\web;
+namespace finasmart\startup\web;
 
 use \yii\web\AssetBundle;
 /**
