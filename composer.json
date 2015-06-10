@@ -1,0 +1,22 @@
+{
+    "name": "finasmart/yii2-adminlte-startup",
+    "description": "Startup Application Backend With AdminLTE Template For Yii Framework 2.0",
+	"type" : "yii2-extension",
+	"keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "HENRY",
+            "email": "alvin_vna@yahoo.com"
+        }
+    ],
+    "require": {
+		"dmstr/yii2-adminlte-asset": "2.*",
+		"insolita/yii2-adminlte-widgets": "*"
+	},
+	"autoload": {
+        "psr-4": {
+            "finasmart\\startup\\": ""
+        }
+    }
+}
