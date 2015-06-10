@@ -1,8 +1,6 @@
 <?php
 namespace finasmart\web;
 
-use yii\base\Exception;
-use yii\web\AssetBundle;
 use dmstr\web;
 /**
  * AdminLte AssetBundle
