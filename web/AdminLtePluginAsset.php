@@ -1,12 +1,13 @@
 <?php
+
 namespace finasmart\web;
 
-use dmstr\web;
+use \yii\web\AssetBundle;
 /**
  * AdminLte AssetBundle
  * @since 0.1
  */
-class AdminLtePluginAsset extends AdminLteAsset
+class AdminLtePluginAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
     public $css = [
@@ -16,5 +17,8 @@ class AdminLtePluginAsset extends AdminLteAsset
 		'slimScroll/jquery.slimscroll.min.js',
 		'fastclick/fastclick.min.js',
 		'iCheck/icheck.min.js',
+    ];
+	public $depends=[
+        'yii\web\YiiAsset',
     ];
 }
